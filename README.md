@@ -44,8 +44,26 @@ Created for learning how stuffs work.
     }
     ```
 
+## Running the example
+1. Clone the repo
+
+2. Install dependencies
+    ```
+    yarn
+    ```
+
+3. Build the package
+    ```
+    yarn build
+    ```
+
+4. Run example
+    ```
+    yarn example
+    ```
+
 ## Goals:
-- ✅ `css()` function works!
+- ✅ `css` and `keyframes` works!
 - ✅ Support template literal syntax 
   ```js
   css`
