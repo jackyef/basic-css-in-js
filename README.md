@@ -1,4 +1,4 @@
-# `basic-css-in-js`
+# `basic-css-in-js` ![npm bundle size](https://img.shields.io/bundlephobia/minzip/basic-css-in-js?style=for-the-badge)
 
 Not to be used on production (at least not yet). 
 
