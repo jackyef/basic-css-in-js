@@ -1,34 +1,5 @@
-import { prefixProperty } from 'tiny-css-prefixer';
-
-const prefix = (prop: string, value: string) => {
-  const flag = prefixProperty(prop);
-
-  let css = `${prop}: ${value};\n`;
-  if (flag & 0b001) css += `-ms-${css}`;
-  if (flag & 0b010) css += `-moz-${css}`;
-  if (flag & 0b100) css += `-webkit-${css}`;
-  return css;
-};
-
-const getPrefixedStyleString = (styleString: string) => {
-  let temp = styleString
-    .trim()
-    .split(';')
-    .map(s => {
-      const [prop, value] = s.split(':');
-
-      if (prop && value) {
-        return prefix(prop.trim(), value);
-      }
-
-      return '';
-    });
-
-  return temp.join('');
-};
-
-const sheet = document.head.appendChild(document.createElement('style'))
-  .sheet as CSSStyleSheet;
+import { getPrefixedStyleString } from './prefixer';
+import { sheet, getSheet } from './sheet';
 
 function interleave(strings: TemplateStringsArray, interpolations: any[]) {
   return strings.reduce((final: string, str: string, i: number) => {
@@ -66,3 +37,4 @@ const _base = (prefix: string) => (
 
 export const css = _base('.');
 export const keyframes = _base('@keyframes ');
+export { getSheet };

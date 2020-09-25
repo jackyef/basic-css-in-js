@@ -43,4 +43,3 @@ div.classList.add(cssClass);
 div.textContent = isNightTime ? 'Good evening! 🌙' : 'Good day! ☀️';
 
 document.body.appendChild(div);
-

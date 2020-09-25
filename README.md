@@ -72,7 +72,7 @@ Created for learning how stuffs work.
   `
   ```
 - ✅ vendor prefixing (via [`tiny-css-prefixer`](https://github.com/kitten/tiny-css-prefixer/))
-- SSR support
+- ✅ SSR support
 - optimisation
 
 ### References:
