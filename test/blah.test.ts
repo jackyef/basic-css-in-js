@@ -1,7 +1,11 @@
-import { sum } from '../src';
+import { css, keyframes } from '../src';
 
 describe('blah', () => {
   it('works', () => {
-    expect(sum(1, 1)).toEqual(2);
+    css`color: blue`;
+    keyframes``;
+
+    // lol
+    expect(true).toBe(true);
   });
 });
