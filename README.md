@@ -67,6 +67,8 @@ Created for learning how stuffs work.
     }
     ```
 
+    [SSR Example on Codesandbox](https://codesandbox.io/s/blue-monad-f5jxe?file=/src/index.js)
+
 ## Running the example
 1. Clone the repo
 

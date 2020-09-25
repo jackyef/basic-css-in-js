@@ -1,5 +1,4 @@
-// const isBrowser = typeof window !== 'undefined';
-const isBrowser = false;
+const isBrowser = typeof window !== 'undefined';
 
 const mockSheet = () => {
   // the mock sheet need to have at least 2 properties
