@@ -4,8 +4,9 @@ Not to be used on production (at least not yet).
 
 Created for learning how stuffs work.
 
-[Example codesandbox](https://codesandbox.io/s/heuristic-wescoff-x8wpi?file=/src/App.js)
-![image](https://user-images.githubusercontent.com/7252454/94264250-92058500-ff60-11ea-9672-6d44c01e6464.png)
+## [Example codesandbox](https://codesandbox.io/s/heuristic-wescoff-x8wpi?file=/src/App.js)
+![image](https://user-images.githubusercontent.com/7252454/94280844-19aabe00-ff78-11ea-8b28-513f784589f7.png)
+
 
 ## APIs
 - `css`
