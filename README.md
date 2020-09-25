@@ -45,6 +45,28 @@ Created for learning how stuffs work.
     }
     ```
 
+- `sheet.extract()` for rendering HTML in node environment
+    ```js
+    import { css, getSheet } from 'basic-css-in-js';
+    
+    const blue = css`
+      color: blue;
+    `;
+
+    const getHtml = () => {
+      return `
+        <html>
+        <head>
+          <style>${getSheet().extract()}</style>
+        </head>
+        <body>
+          <div class="${blue}">I should be blue colored</div>
+        </body>
+        </html>
+      `;
+    }
+    ```
+
 ## Running the example
 1. Clone the repo
 
