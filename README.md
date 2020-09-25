@@ -52,7 +52,7 @@ Created for learning how stuffs work.
     display: none;
   `
   ```
-- vendor prefixing
+- ✅ vendor prefixing (via [`tiny-css-prefixer`](https://github.com/kitten/tiny-css-prefixer/))
 - SSR support
 - optimisation
 
